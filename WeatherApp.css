@@ -1,0 +1,36 @@
+.weather-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.weather-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.weather-container input {
+  padding: 8px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.weather-container button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.weather-container p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
